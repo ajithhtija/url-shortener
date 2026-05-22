@@ -1,0 +1,35 @@
+body { font-family: system-ui, Arial; padding: 24px; background: #f8f9fb; }
+.container { max-width: 720px; margin: 0 auto; background: white; padding: 24px; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,.06); }
+input { padding: 8px 10px; margin-right: 8px; border: 1px solid #ddd; border-radius: 4px; display: block; width: 100%; margin: 8px 0; box-sizing: border-box; }
+button { padding: 8px 12px; background-color: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background-color: #0052a3; }
+#result { margin: 12px 0; padding: 10px; border-radius: 4px; font-weight: bold; }
+.qr-btn { background-color: #9c27b0; }
+.qr-btn:hover { background-color: #7b1fa2; }
+.info-btn { background-color: #2196F3; color: white; border: none; border-radius: 4px; padding: 6px 10px; cursor: pointer; margin-left: 8px; font-size: 12px; display: inline-block; }
+.info-btn:hover { background-color: #0b7dda; }
+.copy-btn { background-color: #4CAF50; color: white; border: none; border-radius: 4px; padding: 6px 10px; cursor: pointer; margin-left: 8px; font-size: 12px; display: inline-block; }
+.copy-btn:hover { background-color: #45a049; }
+.delete-btn { background-color: #ff4444; color: white; border: none; border-radius: 4px; padding: 6px 10px; cursor: pointer; margin-left: 8px; font-size: 12px; display: inline-block; }
+.delete-btn:hover { background-color: #cc0000; }
+li { margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 4px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+a { color: #0066cc; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.auth-container { max-width: 400px; margin: 0 auto; }
+.auth-tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+.tab-btn { flex: 1; padding: 10px; background: #ddd; color: #333; border: 2px solid #999; }
+.tab-btn.active { background: #0066cc; color: white; }
+.auth-form { display: none; }
+.auth-form.active { display: block; }
+.user-info { display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #e8f4f8; border-radius: 4px; margin-bottom: 20px; }
+.logout-btn { padding: 8px 12px; background: #ff6b6b; }
+.logout-btn:hover { background: #ff5252; }
+#shorten-form { display: flex; gap: 8px; margin-bottom: 20px; }
+#shorten-form input { margin: 0; flex: 1; }
+#shorten-form button { margin: 0; flex: 0 0 auto; width: auto; }
+.qr-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; z-index: 1000; }
+.qr-modal-content { background: white; padding: 24px; border-radius: 8px; text-align: center; position: relative; max-width: 500px; }
+.close-btn { position: absolute; top: 10px; right: 15px; font-size: 28px; cursor: pointer; color: #999; }
+.close-btn:hover { color: #333; }
+.qr-image { max-width: 300px; margin: 20px 0; border: 2px solid #ddd; padding: 10px; }
+.download-link { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #4CAF50; color: white; text-decoration: none; border-radius: 4px; }
