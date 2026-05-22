@@ -7,7 +7,7 @@ Quick start
 1. Copy `.env.example` to `.env` and set `MONGODB_URI` and `PORT`.
 2. npm install
 3. npm run dev
-4. sample website images are uploaded.
+4. sample website images are uploaded
 API
 
 - POST /api/url - body: { originalUrl, customId? }
